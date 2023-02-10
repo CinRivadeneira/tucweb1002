@@ -1,0 +1,40 @@
+
+footer{
+    background-color: rgb(49, 51, 53);
+    height: 150px;
+    text-align: justify center;
+    color:aliceblue
+
+}
+
+.copy{
+    text-align: center;   
+    color: rgb(241, 241, 245);  
+}
+
+.menufooter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menufooter a{
+    color:rgb(241, 241, 245);
+    text-decoration: none;
+    margin: 0px, 25px,30px;
+}
+
+
+.redes{
+    padding: 7px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.redes img{
+    margin: 7px;
+}

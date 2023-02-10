@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    transition: background-color 0.4s;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+    {
+    /* Home */
+}
+
+h2 {
+    color: rgb(4, 4, 97);
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 20px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    padding: 20px 20px;
+    color: aliceblue;
+    background-image: url(../Img/Fondo/1.jpg);
+    padding-top: 30px;
+}
+
+h3 {
+    color: rgb(4, 4, 97);
+    text-decoration: underline;
+}
+
+
+
+.servicios {
+    display: grid;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    color: rgb(4, 4, 97);
+}
+
+
+.cardconteiner {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    border: 500px;
+}
+
+.card {
+    width: 350px;
+    height:580px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #eceff1;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    display: inline-block;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.card .contenido h3 {
+    margin-bottom: 3px;
+    color: rgb(4, 4, 97);
+}
+
+.iconitos {
+    padding: 0px 110px;
+}
+
+    {
+    /* Home */
+}
+
+
+
+    {
+    /* Quienes somos */
+}
+
+.intro {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 15px;
+    color: #042133;
+}
+
+.nosotros {
+    color: #042133;
+    text-decoration: underline;
+}
+
+.contenedorE {
+    z-index: -1;
+    display: grid;
+    grid-gap: 20px;
+    padding: 10px -50px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery_img {
+    z-index: -1;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+    margin: 1px;
+    padding: 5px;
+    border: solid 3px #042133;
+}
+
+.gallery__iterm {
+    z-index: -1;
+    position: relative;
+
+}
+
+.gallery__title {
+    position: absolute;
+    color: aliceblue;
+    margin: -80px 47px;
+    font-size: 15px;
+}
+
+.nosotros {
+    text-align: center;
+}
+
+.logohorizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.logohorizontal img {
+    margin-top: -40px;
+    width: 350px;
+    height: 110px;
+}
+
+.logohorizontal img:hover {
+    transform: scale(1.2);
+    transition: all 0.7s;
+}
+
+
+    {
+    /* Quienes somos */
+}
+
+
+
+    {
+    /* Contacto */
+}
+
+.form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+textarea {
+    max-width: 100%;
+}
+
+#botonenv {
+    padding: 5px;
+    color: #eceff1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #042133;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    transition: background-color 0.25s;
+}
+
+#botonenv:hover {
+    background-color: #083e5f;
+}
+
+
+p {
+    color: orange;
+}
+
+
+    {
+    /* Contacto */
+}
+
+
+
+
+
+    {
+    /* DarkMode */
+}
+
+
+
+#darkMode {
+    display: flex;
+    cursor: pointer;
+    margin-right: 30px;
+    background: transparent url("../Img//DarkMode/Mode.png") no-repeat center;
+    background-size: 30px 30px;
+    width: 45px;
+    height: 45px;
+    filter: grayscale(100%);
+    border: none;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+    margin: 10px;
+}
+
+
+#darkMode:hover,
+#darkMode:focus {
+    filter: none;
+    background-color: black;
+    cursor: pointer;
+}
+
+#darkMode.clicked {
+    filter: none !important;
+    background-color: black;
+}
+
+
+body.light {
+    background-color: rgb(250, 250, 250);
+    color: rgb(4, 4, 97);
+}
+
+
+
+body.dark {
+    background-color: rgb(10, 10, 42);
+}
+
+body.dark h2 {
+    color: aliceblue;
+}
+
+body.dark p {
+    color: aliceblue;
+}
+
+body.dark .logohorizontal img {
+    display: none;
+}
+
+body.dark .logohorizontal {
+    background: url("../Img/LogoD.png") no-repeat center;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+body.dark label {
+    color: aliceblue;
+}
+
+body.dark form p {
+    color: #f6c355;
+}
+
+
+body.dark #botonenv {
+    padding: 5px;
+    color: rgb(4, 4, 97);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f6c355;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    transition: background-color 0.25s;
+}
+
+
+
+body.dark #botonenv:hover {
+    background-color: orange
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+    /* DarkMode */
+}
+
+
+
+
+@media screen and (min-width:960px) {
+    .servicios {
+        display: flex;
+        grid-gap: 20px;
+        margin-left: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (min-width:540px) {
+    .contenedorE {
+        display: flex;
+        justify-content: center;
+    }
+}

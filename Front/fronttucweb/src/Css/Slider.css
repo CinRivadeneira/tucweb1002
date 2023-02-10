@@ -1,0 +1,67 @@
+
+.banner {
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: calc(40vh - 20px);
+    background-color: rgb(170, 153, 153);
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    animation: banner 15s infinite linear;
+}
+
+
+.banner-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    background-color: rgb(0, 22, 40, .60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes banner {
+    0% {
+        background-image: url(https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+    }
+
+    25% {
+        background-image: url(https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    }
+
+    50% {
+        background-image: url(https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+    }
+}
+
+.soluciones {
+    font-size: 40px;
+    color: rgb(214, 221, 226);
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    text-overflow: 25px;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    display: inline-block;
+
+}
+
+
+@media only screen and (min-width:375px) {
+    .banner{
+        height: calc(60vh - 40px);
+    };
+
+}
+
+
