@@ -1,0 +1,15 @@
+npm i @mui/system @emotion/react @emotion/styled
+npm i react-router-dom
+npm i styled-components
+npm i react-icons
+npm i react-hook-form
+npm i react-router-dom@5
+npm i axios
+__________________________
+
+npm express
+npm body-parser
+npm nodemon
+npm mongoose
+npm add crypto-uid
+
