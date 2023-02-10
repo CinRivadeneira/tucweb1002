@@ -10,9 +10,6 @@ body {
 }
 
 
-    {
-    /* Home */
-}
 
 h2 {
     color: rgb(4, 4, 97);
@@ -90,15 +87,6 @@ h3 {
     padding: 0px 110px;
 }
 
-    {
-    /* Home */
-}
-
-
-
-    {
-    /* Quienes somos */
-}
 
 .intro {
     text-align: center;
@@ -168,15 +156,6 @@ h3 {
 }
 
 
-    {
-    /* Quienes somos */
-}
-
-
-
-    {
-    /* Contacto */
-}
 
 .form {
     width: 100%;
@@ -219,17 +198,12 @@ p {
 }
 
 
-    {
-    /* Contacto */
-}
 
 
 
 
 
-    {
-    /* DarkMode */
-}
+
 
 
 
@@ -329,10 +303,6 @@ body.dark #botonenv:hover {
 
 
 
-
-    {
-    /* DarkMode */
-}
 
 
 
