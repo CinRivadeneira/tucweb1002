@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url = 'mongodb://localhost/usersApp';
+const url = 'mongodb://127.0.0.1/usersApp';
 
 mongoose.connect(url);
 
